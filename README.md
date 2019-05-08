@@ -50,4 +50,4 @@ The result will be displayed in your browser. The result is the difference betwe
 
 ## Testing
 
-Whilst the server is running, either by executing the deployment file or executing 'node app.js', you can execute the Python test file by executing 'python3 test.py' in a separate terminal. This will send requests to the server and respond accordingly depending on the response received.
+Whilst the server is running, either by executing the deployment file or executing `node app.js`, you can execute the Python test file by executing `python3 test.py` in a separate terminal. This will send requests to the server and respond accordingly depending on the response received.
