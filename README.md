@@ -25,6 +25,8 @@ chmod 777 deploy.sh
 ./deploy.sh
 ```
 
+  You can also manually execute the `app.js` file by running `node app.js`. 
+
 3. Open your browser and continue to the end point here:
 
 ```
