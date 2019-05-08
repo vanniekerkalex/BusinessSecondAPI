@@ -52,5 +52,7 @@ function convertToSeconds(time) {
 
         ans = (Number(hours) * 60 * 60) + (Number(mins) * 60) + Number(secs);
     }
+    if (isNaN(ans))
+        return -1;
     return ans;
 }
