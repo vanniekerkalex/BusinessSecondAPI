@@ -23,9 +23,7 @@ chmod 777 deploy.sh
 ```
 ```
 ./deploy.sh
-```
-
-  You can also manually execute the `app.js` file by running `node app.js`. 
+``` 
 
 3. Open your browser and continue to the end point here:
 
@@ -53,3 +51,7 @@ The result will be displayed in your browser. The result is the difference betwe
 ## Testing
 
 Whilst the server is running, either by executing the deployment file or executing `node app.js`, you can execute the Python test file by executing `python3 test.py` in a separate terminal. This will send requests to the server and respond accordingly depending on the response received.
+
+## Not running after deployment?
+
+If you have Node.js and Express installed, you can also manually execute the `app.js` file by running `node app.js` from the terminal in the root directory.
